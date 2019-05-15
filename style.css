@@ -1,31 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 
-ul {
+.nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+.nav-bar a {
   float: left;
-}
-
-li a {
   display: block;
   font-family: Roboto;
   font-size: .9em;
   font-weight: 700;
   color: black; 
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 12px;
   text-decoration: none;
 }
 
 /* Move items to right in the Nav Bar */
 .topnav-right {
   float: right;
+}
+
+/* Google apps icon vertical center */
+#google-apps {
+  padding-top: 8px;
+  padding-right: 10px;
+  opacity: .7;
 }
 
 /* Sign in Button */
