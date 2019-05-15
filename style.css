@@ -16,6 +16,7 @@ li a {
   display: block;
   font-family: Roboto;
   font-size: .9em;
+  font-weight: 700;
   color: black; 
   text-align: center;
   padding: 14px 16px;
@@ -28,13 +29,14 @@ li a {
 }
 
 /* Sign in Button */
-.sign-button {
-  background-color: rgba(0, 119, 255, 0.671);
-  padding: 0px 4px;
-  border-radius: 4px;
+#sign-button {
+  background-color: rgba(0, 119, 255, 0.815);
+  padding: 10px 15px;
+  border-radius: 3px;
+  border-width: 0px;
   color: white;
   text-align: center;
-  font-weight: 900;
+  font-weight: 700;
   display: inline-block;
   font-size: 16px;
 }
@@ -74,5 +76,9 @@ input[type=search]:focus {
   font-family: Roboto;
   font-size: .9em;
   font-weight: 600;
+
+}
+
+.languages a {
   text-decoration: none;
 }
