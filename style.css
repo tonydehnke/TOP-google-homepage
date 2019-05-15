@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: Roboto;
+  font-size: .9em;
+  color: black; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Move items to right in the Nav Bar */
+.topnav-right {
+  float: right;
+}
+
+/* Sign in Button */
+.sign-button {
+  background-color: rgba(0, 119, 255, 0.671);
+  padding: 0px 4px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.center {
+  text-align: center;
+ /* margin: 0 auto; */
+}
+
+
+input[type=search] {
+  padding: 1em;
+  margin: 20px ;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  width: 40%;
+  outline: none;
+}
+
+input[type=search]:focus {
+  outline: none;
+  box-shadow: 0 0 3px lightgrey;
+}
+
+#search-button {
+  background-color: rgb(247, 243, 243);
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0px;
+  color: rgb(133, 131, 131);
+  text-align: center;
+  font-size: 16px;
+}
+
+.languages {
+  padding: 10px;
+  font-family: Roboto;
+  font-size: .9em;
+  font-weight: 600;
+  text-decoration: none;
+}
