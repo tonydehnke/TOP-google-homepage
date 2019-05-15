@@ -31,7 +31,8 @@ li a {
 /* Sign in Button */
 #sign-button {
   background-color: rgba(0, 119, 255, 0.815);
-  padding: 10px 15px;
+  padding: 8px 15px;
+  margin-top: 5px;
   border-radius: 3px;
   border-width: 0px;
   color: white;
@@ -43,6 +44,7 @@ li a {
 
 .center {
   text-align: center;
+  padding: 145px;
  /* margin: 0 auto; */
 }
 
@@ -52,7 +54,7 @@ input[type=search] {
   margin: 20px ;
   border: 1px solid lightgrey;
   border-radius: 20px;
-  width: 40%;
+  width: 60%;
   outline: none;
 }
 
@@ -71,6 +73,11 @@ input[type=search]:focus {
   font-size: 16px;
 }
 
+#search-button:hover {
+  border: 0.9px solid silver;  
+  color: black;
+}
+
 .languages {
   padding: 10px;
   font-family: Roboto;
@@ -81,4 +88,22 @@ input[type=search]:focus {
 
 .languages a {
   text-decoration: none;
+}
+
+.footer {
+  background-color: rgb(247, 243, 243);
+  padding: 10px 16px;
+  border-top: 1px solid rgba(211, 211, 211, 0.527);
+}
+
+.footer a {
+  font-family: Roboto;
+  font-size: .8em;
+  color: black;
+  text-decoration: none;
+  padding: 10px 16px;
+}
+
+.footer-right {
+  float: right;
 }
